@@ -6,7 +6,7 @@
     --fonte-titulo: 'Passion One';
     --fonte-corpo: 'Sriracha';
     --tamanho-titulo: 10vw;
-    --tamanho-corpo: 6vh;
+    --tamanho-corpo: 3.5vw;
 
 }
 
@@ -79,9 +79,10 @@ section.comum {
 }
 
 #content1 p {
-    width: 700px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.363);
     margin-left: 20px;
+    padding: 10px;
 }
 
 #content2 {
@@ -92,9 +93,10 @@ section.comum {
 }
 
 #content2 p {
-    width: 700px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.363);
     margin-left: 20px;
+    padding: 10px;
 }
 
 footer {
@@ -102,10 +104,11 @@ footer {
     color: white;
     height: 35px;
     text-align: center;
+    padding: 10px;
 }
 
 footer p {
-    padding: 10px;
+    padding-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
