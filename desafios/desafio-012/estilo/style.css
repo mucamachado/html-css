@@ -41,12 +41,13 @@ header h1 {
 header h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
     padding-bottom: 50px;
 }
 
-header a {
+header h2 > a {
     color: white;
+    font-weight: bold;
     text-decoration: none;
     transition: 1.5s;
 }
@@ -58,10 +59,11 @@ header a:hover {
 section {
     font-family: var(--fonte-corpo);
     font-size: var(--tamanho-corpo);
+    line-height: 2em;
 }
 
 section p {
-    padding-left: 50px;
+    padding-left: 7vh;
 }
 
 section.comum {
@@ -80,4 +82,41 @@ section.comum {
     width: 700px;
     background-color: rgba(0, 0, 0, 0.363);
     margin-left: 20px;
+}
+
+#content2 {
+    background: black url('../assets/imagens/background002.jpg') right center no-repeat fixed;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: #f2f2f2;
+}
+
+#content2 p {
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.363);
+    margin-left: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+footer p {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: 1.5s;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
