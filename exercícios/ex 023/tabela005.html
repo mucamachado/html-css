@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="muca-nerd-favicon.ico" type="image/x-icon">
+    <title>Exercício de tabelas</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    col.cnome {
+        background-color: green;
+    }
+
+    col.cprof {
+        background-color: red;
+    }
+    
+</style>
+<body>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Professora</td>
+        </tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Analista</td>
+        </tr>
+            <td>Júlia</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Programadora</td>
+        </tr>
+            <td>Isadora</td>
+            <td>F</td>
+            <td>30</td>
+            <td>Gerente</td>
+        </tr>
+            <td>Márcio</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Carteiro</td>
+        </tr>
+
+        <tr>
+            <td>Fábio</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Programador</td>
+        </tr>
+        </table>
+    </body>
+    </html>
