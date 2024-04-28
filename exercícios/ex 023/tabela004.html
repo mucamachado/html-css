@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="muca-nerd-favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+    }
+
+    caption {
+        font-weight: bold;
+    }
+
+    th {
+        font-weight: bold;
+        background-color: #b2b2b2;
+    }
+</style>
+<body>
+    <table>
+
+        <caption>
+            Filmes favoritos de cada pessoa
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Silva</td>
+                <td>O Labirinto do Fauno</td>
+                <td>Crepúsculo</td>
+                <td>Clube da Luta</td>
+            </tr>
+            <tr>
+                <td>Juliana Oliveira</td>
+                <td>A Origem</td>
+                <td>O Poderoso Chefão</td>
+                <td>O Senhor dos Anéis</td>
+            </tr>
+            <tr>
+                <td>Marina Santos</td>
+                <td>Cidade de Deus</td>
+                <td>O Iluminado</td>
+                <td>Interestelar</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Lucas Souza</td>
+                <td>Matrix</td>
+                <td>Titanic</td>
+                <td>O Rei Leão</td>
+            </tr>
+            <tr>
+                <td>Gabriel Costa</td>
+                <td>De Volta para o Futuro</td>
+                <td>Forrest Gump</td>
+                <td>Pantera Negra</td>
+            </tr>
+            <tr>
+                <td>Rafael Almeida</td>
+                <td>Pulp Fiction</td>
+                <td>Vingadores: Ultimato</td>
+                <td>Os Incríveis</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total de participantes</th>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
